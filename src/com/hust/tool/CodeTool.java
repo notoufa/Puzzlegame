@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class CodeTool {
+    //得到验证码
     public static String getcode() {
         ArrayList<Character> list = new ArrayList<>();
         char[] code = new char[5];
