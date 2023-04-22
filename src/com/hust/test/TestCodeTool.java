@@ -1,5 +1,6 @@
-package com.hust.tool;
+package com.hust.test;
 
+import com.hust.tool.CodeTool;
 import org.junit.Assert;
 import org.junit.Test;
 
