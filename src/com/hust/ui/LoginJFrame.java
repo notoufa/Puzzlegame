@@ -155,7 +155,7 @@ public class LoginJFrame extends JFrame implements MouseListener {
                     showJDialog("笨啊你，密码都能忘！");
                 } else {
                     IO.ps.println("登录:用户" + inputUserName + "登录成功");
-                    showJDialog("登陆成功");
+                    showJDialog("登录成功");
 
                     this.setVisible(false);
                     //打开游戏的主界面

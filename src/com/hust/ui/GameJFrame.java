@@ -1,7 +1,5 @@
 package com.hust.ui;
 
-import com.hust.tool.IO;
-
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
 import java.awt.*;
@@ -48,7 +46,6 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
 
     private void getMass() {
         int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
-
 
         Random r = new Random();
         for (int i = 0; i < arr.length; i++) {
